@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://kit.fontawesome.com/c51bbf4f1c.js" crossorigin="anonymous"></script>
+    <title>Quick Weather</title>
+    <link rel="icon" type="image/x-icon" href="../static/logo.png">
+</head>
+
+<body>
+
+    <h1 id="title">Welcome to Quick Weather</h1>
+
+    <div class="box">
+
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+
+        <div class="weatherIcon">
+            <img id="weatherImg" src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon">
+        </div>
+
+        <div class="weatherInfo">
+            <h2 class="location"><i class="fas fa-street-view"></i>Delhi, In</h2>
+            <p id="weather_status">Clear | Clear Sky</p>
+            <h1 class="temp">30.35°C</h1>
+            <h3 class="temp_min_max">Min 24°C | Max 33°C</h3>
+            <p class="more_Info">Pressure 1023 Pa | Humidity 100%</p>
+            <p class="more_Info">Wind Speed 100km/h | Feels Like 44°C</p>
+        </div>
+    </div>
+
+    <div class="InputBox">
+        
+        <div class="Inputs">
+            <input type="text" name="City" , class="myInput" , id="city" , placeholder="Input City Name">
+        </div>
+
+        <div class="Button">
+            <button class="btn" id="search">Search</button>
+        </div>
+
+    </div>
+
+    <script src="../static/index.js"></script>
+
+</body>
+
+</html>

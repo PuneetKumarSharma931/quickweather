@@ -1,0 +1,14 @@
+{
+  "name": "quick-weather",
+  "version": "1.0.0",
+  "description": "This is a simple realtime weather app made using Node.js and express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Puneet Kumar Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
